@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8)
+project( SimpleImageManipulation )
+find_package( OpenCV COMPONENTS core imgproc highgui REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+set(SOURCES main.cpp SimpleImageManipulation.cpp)
+add_executable( SimpleImageManipulation ${SOURCES})
+target_link_libraries( SimpleImageManipulation ${OpenCV_LIBS} )
