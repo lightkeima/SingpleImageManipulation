@@ -1,3 +1,0 @@
-/home/lightkeima/Courses/cs427/lab01/CMakeFiles/rebuild_cache.dir
-/home/lightkeima/Courses/cs427/lab01/CMakeFiles/edit_cache.dir
-/home/lightkeima/Courses/cs427/lab01/CMakeFiles/SimpleImageManipulation.dir
